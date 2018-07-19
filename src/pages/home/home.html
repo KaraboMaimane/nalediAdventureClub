@@ -1,0 +1,20 @@
+<ion-content padding>
+
+  <div class="flexcontainer">
+    <div class="container">
+      <h1 class="headingText">Naledi Adventure Club</h1>
+      <h4 class="quoteText">Brining Positive Change To Our Kasi One Step At A Time</h4>
+      <ion-list>
+        <ion-item>
+          <ion-input type="text" (change)="assignName($event)" placeholder="Name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" (change)="assignSurname($event)" placeholder="Surname"></ion-input>
+        </ion-item>
+      </ion-list>
+      <button ion-button block (click)="proceed()">Proceed</button>
+    </div>
+  </div>
+
+  <small>Created By Karabo Maimane for CodeTribe</small>
+</ion-content>
